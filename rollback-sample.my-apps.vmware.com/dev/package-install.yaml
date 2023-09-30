@@ -10,7 +10,8 @@ spec:
   packageRef:
     refName: rollback-sample.my-apps.vmware.com
     versionSelection:
-      constraints: 20230930014728.0.0
+      #! constraints: ">=0.0.0"
+      constraints: 20230930014728.0.0+build.f943f02
   values:
   - secretRef:
       name: app-values
