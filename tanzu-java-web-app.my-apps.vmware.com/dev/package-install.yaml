@@ -1,0 +1,14 @@
+---
+apiVersion: packaging.carvel.dev/v1alpha1
+kind: PackageInstall
+metadata:
+ name: app
+spec:
+ serviceAccountName: default
+ packageRef:
+   refName: tanzu-java-web-app.my-apps.vmware.com
+   versionSelection:
+     constraints: ">=0.0.0"
+ values:
+ - secretRef:
+     name: app-values # Secret created in previous step
