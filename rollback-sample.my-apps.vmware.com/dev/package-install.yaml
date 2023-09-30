@@ -8,7 +8,7 @@ metadata:
 spec:
   serviceAccountName: default
   packageRef:
-    refName: tanzu-java-web-app.my-apps.vmware.com
+    refName: rollback-sample.my-apps.vmware.com
     versionSelection:
       constraints: ">=0.0.0"
   values:

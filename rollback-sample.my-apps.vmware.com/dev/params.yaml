@@ -6,6 +6,6 @@ metadata:
 stringData:
  values.yaml: |
    ---
-   workload_name: tanzu-java-web-app
+   workload_name: rollback-sample
    replicas: 2
-   hostname: tanzu-java-web-app-my-apps.tap.z023991c5.shepherd.lease
+   hostname: rollback-sample-my-apps.tap.z023991c5.shepherd.lease
