@@ -8,3 +8,4 @@ stringData:
    ---
    workload_name: tanzu-java-web-app
    replicas: 2
+   hostname: tanzu-java-web-app-my-apps.tap.z023991c5.shepherd.lease
